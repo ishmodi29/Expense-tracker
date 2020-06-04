@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+.mainLogo {
+  font-family: sans-serif;
+  text-align: center;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  font-weight: lighter;
+  font-variant: small-caps;
+}
+.expenseTitle {
+  font-family: "Caveat", cursive;
+  font-weight: lighter;
+  color: gray;
+}
+.mainHeader {
+  font-size: 18px;
+  position: relative;
+  left: 8%;
+  font-weight: 200;
+}
+.addItems {
+  position: relative;
+  left: 8%;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  border: none;
+}
+input {
+  font: 400 16px Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  line-height: 24px;
+  font-size: 15px;
+  padding-left: 5px;
+  border: none;
+  margin-bottom: 10px;
+  border-bottom: 1.5px solid  gray;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  height: 24px;
+  line-height: 24px;
+  transition: .2s ease all;
+}
+input:focus{
+  outline: none;
+  border-bottom: 1.5px solid  mediumturquoise;
+}
+.addItems:active {
+  outline: 0 none;
+}
+.addItems :focus {
+  outline: 0 none;
+}
+    button :hover {
+     background-color: yellow;
+    }
+.addItems button {
+  border: none;
+  border-radius: 5px;
+  background-color: gray;
+  color: #fff;
+  padding : 5px; 
+  margin-left: 15px;
+
+}
+table {
+  margin-top: 20px;
+  position: relative;
+  left: 8%;
+  padding: 5px;
+  width: 250px;
+  text-align: center;
+}
+.totalLine {
+  border-top: black 1px dotted;
+}
+.charts {
+  position: fixed;
+  right: 15%;
+  top: 20%;
+  min-width: 35%;
+  min-height: 300px;
+}
+.hidden {
+  visibility: hidden;
+}
