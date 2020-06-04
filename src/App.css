@@ -19,6 +19,7 @@
   position: relative;
   left: 8%;
   font-weight: 200;
+   max-width: 200px;
 }
 .addItems {
   position: relative;
